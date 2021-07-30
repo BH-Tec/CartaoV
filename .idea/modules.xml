@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CartaoV.iml" filepath="$PROJECT_DIR$/.idea/modules/CartaoV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CartaoV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CartaoV.app.iml" />
+    </modules>
+  </component>
+</project>
