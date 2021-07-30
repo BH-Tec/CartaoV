@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import br.brunodorea.cartaov.App
 import br.brunodorea.cartaov.databinding.ActivityMainBinding
-
+import br.brunodorea.cartaov.util.Image.Companion.share
 
 class MainActivity : AppCompatActivity() {
 
@@ -47,7 +47,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddBusinessCardActivity::class.java)
             startActivity(intent)
         }
-        adapter.listenerShare = {
+        adapter.listenerShare = { card ->
+            Image.share(this@MainActivity, card)
         }
     }
 
@@ -58,4 +59,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-}
+}}
