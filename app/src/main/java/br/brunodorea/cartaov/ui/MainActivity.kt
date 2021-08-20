@@ -2,14 +2,13 @@ package br.brunodorea.cartaov.ui
 
 import android.Manifest
 import android.content.Intent
-import android.media.Image
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import br.brunodorea.cartaov.App
 import br.brunodorea.cartaov.databinding.ActivityMainBinding
-import br.brunodorea.cartaov.util.Image.Companion.share
+import br.brunodorea.cartaov.util.Image
 
 class MainActivity : AppCompatActivity() {
 
